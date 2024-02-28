@@ -48,6 +48,8 @@ export class ProgramWindow{
 }
 
 export function changeWindow(ProgramWindow){
+
+  
   ProgramWindow.resize(new Size(400 , 300))
    ProgramWindow.move(new Position(100 , 150))
    return ProgramWindow
